@@ -1,0 +1,9 @@
+TO RUN: 
+  Unzip and open "maze.html" with any browser.
+
+TO DO: 
+  Fix light lines appearing where walls are not present
+  Improve generation animation
+  Wait until generation is finished before reopening solve button
+  Scale maze size with window size
+  
