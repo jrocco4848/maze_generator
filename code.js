@@ -133,7 +133,7 @@ function generate() {
 	reset();
 	rows = Number(document.getElementById("height").value);
 	cols = Number(document.getElementById("width").value);
-	w = (window.innerWidth > window.innerHeight ? window.innerHeight/rows : window.innerWidth/rows);
+	w = window.innerWidth > window.innerHeight ? window.innerHeight/(rows+1) : window.innerWidth/(rows+1);
 	setup(rows, cols);
 	recursiveBacktrack(0, 0, rows, cols);
 	draw();
